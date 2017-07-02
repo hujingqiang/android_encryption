@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                     String iv ="4NAfcTL5nWERGSLl"; //CryptLib.generateRandomIV(16); //16 bytes = 128 bit
 
                     System.out.println("key=" + key);
-                    System.out.println("iv=" + iv);
+                    System.out.println("i v=" + iv);
                     output = _crypt.encrypt(plainText, key, iv); //encrypt
                     System.out.println("encrypted text=" + output);
                     output = _crypt.decrypt(output, key,iv); //decrypt
